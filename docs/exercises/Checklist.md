@@ -132,5 +132,6 @@ gh secret set AWS_SESSION_TOKEN --body "<...>"
 - [ ] `task-definition.json` enthält keine Platzhalter-Account-ID mehr
 - [ ] ECR-Repo, Cluster, Service, ALB stehen und sind in **us-east-1**
 
+
 Danach: Push auf `main` (oder `workflow_dispatch`) auslöst alle fünf Jobs;
 `deploy`, `docker`, `deploy-ecs` laufen nur bei Push auf `main`, nicht bei Pull Requests.
