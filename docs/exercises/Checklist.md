@@ -66,6 +66,7 @@ Workflow passen (`ECR_REPOSITORY: biztrips`, `cluster: biztrips-cluster`,
 
 ---
 
+
 ## 3. GitHub Secrets & Variables setzen
 
 ### 3a. Environment `production` (nur für den `deploy`-Job, EC2)
